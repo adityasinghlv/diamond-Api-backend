@@ -1,0 +1,38 @@
+{
+    "statusCode": {
+        "OK": 200,
+        "INTERNAL_SERVER_ERROR": 500,
+        "UNAUTHORIZED": 401,
+        "BAD_REQUEST": 400,
+        "NOT_FOUND": 404
+    },
+    "apiV1Prefix": "/api/v1",
+    "APP_SHORT_NAME": "LV",
+    "roles": {
+        "superAdmin": 4,
+        "superMaster": 3,
+        "agent": 2,
+        "user": 1
+    },
+    "rolesKeys": {
+        "4": "superAdmin",
+        "3": "superMaster",
+        "2": "agent",
+        "1": "user"
+    },
+    "userStatus": {
+        "active": "active",
+        "suspended": "suspended"
+    },
+    "PAYMENT_STATUS_TYPES": {
+        "CONFIRMED": "confirmed",
+        "PENDING": "pending",
+        "SUCCESS": "success",
+        "FAILED": "failed"
+    },
+    "TRANSACTION_BY": {
+        "WALLET": "wallet",
+        "APP_NAME": "BX"
+    },
+    "BASE_URL":"https://api.bholaexchange.com/"
+}

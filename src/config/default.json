@@ -1,0 +1,78 @@
+{
+    "statusCode": {
+        "OK": 200,
+        "CREATED" : 201,
+        "INTERNAL_SERVER_ERROR": 500,
+        "DATA_NOT_FOUND": 204,
+        "UNAUTHORIZED": 401,
+        "BAD_REQUEST": 400,
+        "NOT_FOUND": 404,
+        "FORBIDDEN": 403
+    },
+    "apiV1Prefix": "/api/v1",
+    "adminV1Prefix": "/admin/v1",
+    "bcrypt": {
+        "saltRounds": 10
+    },
+    "resMessage": {
+        "Data_Not_Found": "Data not found",
+        "Data_Already_Exist": "Data already exist",
+        "You_Are_Already_Login_With_this_Account": "You are already login with this account",
+        "Data_Created_Successfully": "Data created successfully",
+        "Data_Fetch_Successfully": "Data fetch successfully",
+        "Data_Updated_Successfully": "Data updated successfully",
+        "Name_Must_be_Unique": "Name Must be Unique",
+        "Unique_Email_Username": "Email or username already in use",
+        "User_Not_Found": "User not found",
+        "Duplicate_UserName_Fetch": "Duplicate userName found",
+        "Proceed_To_Next_Step": "proceed to next step",
+        "Your_Account_is_Blocked": "Your Account is Blocked...!",
+        "Incorrect_Username_Password": "Incorrect username or password",
+        "User_login_Successfully": "User login Successfully.",
+        "User_Not_Exist": "User does not exist",
+        "User_Logout_Success": "User Logout Successfully",
+        "User_Details_Found_Success": "User details retrieved successfully",
+        "Unauthorized_Access": "Unauthorized Access",
+        "Member_Not_Found": "Member Not Found",
+        "Token_Required": "Token is required",
+        "Change_Password_Success": "Password changed successfully",
+        "New_Password_Not_Match": "New passwords do not match",
+        "Current_Password_Incorrect": "'Current password is incorrect",
+        "New_Password_Same_As_Current": "New Password and old password should not be same",
+        "Create_New_Password_Success": "Create New Password Successfully",
+        "Admin_Not_Found": "Admin not found",
+        "Admin_Logout_Success": "Admin Logout Successfully",
+        "Admin_Login_Success": "Admin login Successfully.",
+        "Incorrect_Email_Password": "Incorrect email or password",
+        "Invalid_account_type_super_admin": "Invalid account type for Super Admin.",
+        "Invalid_account_type_master":"Master can only create Agent or User.",
+        "Invalid_account_type_agent": "Agent can only create User.",
+        "Not_permission_to_create":"You do not have permission to create a user.",
+        "Incorrect_Password" : "Incorrect password.",
+        "Missing_exposureLimit":"Provide the exposure limit",
+        "Missing_Password":"Current password and new password are required.",
+        "Password_cannot_be_same":"Current password and new password cannot be the same.",
+        "Not_allowed_to_change_password":"Super-admin is not allowed to change their own password.",
+        "Successful_Logout":"Logout successful!",
+        "Not_allowed_to_view":"You do not have permission to view users.",
+        "Successfully_fetch_user":"User fetched successfully.",
+        "Not_allowed_to_view_user_not_created_by_you":"You can only view users created by you.",
+        "User_not_found":"User not found",
+        "User_id_required":"User ID is required",
+        "Password_updated":"Password updated successfully!",
+        "Cant_delete_own_account":"You cannot delete your own account",
+        "You_cant_delete_user":"You cannot delete",
+        "Cant_delete_user":"You can only delete users created by you.",
+        "Dont_have_permission":"You do not have permission to delete users",
+        "Delete_sub_user":"You must delete all sub-users before deleting this user.",
+        "User_deleted":"User deleted successfully"
+
+        
+        
+    },
+    "userRoles": {
+        "ADMIN": "admin"
+    },
+    "BASE_URL_Without_Slas":"http://localhost:2526",
+    "APP_SHORT_NAME":"LV"
+}
